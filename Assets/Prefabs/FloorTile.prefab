@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6664485000090046259}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TouchFloorTransform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,8 @@ GameObject:
   - component: {fileID: 6156027773438734353}
   - component: {fileID: 3373168365679434686}
   - component: {fileID: 5484942054525395579}
-  m_Layer: 0
+  - component: {fileID: -7008605598808256298}
+  m_Layer: 8
   m_Name: FloorTile
   m_TagString: Floor
   m_Icon: {fileID: 0}
@@ -169,6 +170,18 @@ SpringJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!114 &-7008605598808256298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7891144334484679743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86eb60d04e223f74ba202fe41b9c6c22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8363178060617702564
 GameObject:
   m_ObjectHideFlags: 0
@@ -180,7 +193,7 @@ GameObject:
   - component: {fileID: 8750290342721368112}
   - component: {fileID: 3180966400072612170}
   - component: {fileID: 6745915880456652019}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
